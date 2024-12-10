@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(blue-background-7470781_1280.jpg);
+    background-size: cover;
+    color: #E6e0f8;
+    display: flex;
+    flex-direction: column;
+}
+
+.kep {
+    border-radius: 100%;
+    width: 85px;
+    transition: 200ms;
+}
+
+.kep:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    background-color: #668EAD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.kep_meret {
+    flex-shrink: 0;
+}
+
+.elements {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+.element {
+    padding: 6px 14px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 200ms;
+}
+
+.element:hover {
+    background-color:darkslategrey; 
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #E6e0f8;
+}
+
+.doboz, .doboz2 {
+    background-color: #668EAD;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 1;
+    box-shadow: black 0px 0px 12px;
+}
+
+.doboz2 {
+    transition: 200ms;
+    filter: blur(3px);
+}
+
+.doboz2:hover {
+    filter: none;
+    transform: scale(1.05); 
+}
+
+.doboz3 {
+    background-color: #668EAD;
+    border-radius: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: black 0px 0px 12px;
+    padding: 15px;
+}
+
+.doboz4  {
+    background-color: #668EAD;
+    border-radius: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    display: flex;
+    box-shadow: black 0px 0px 12px;
+    padding: 15px;
+}
+
+.doboz5{
+    background-color: #668EAD;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+    flex-grow: 1;
+    box-shadow: black 0px 0px 12px;
+}
+
+.doboz6 {
+    background-color: #668EAD;
+    flex-grow: 1;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 12px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex3 {
+    display: flex;
+    align-items: flex;
+    text-align: center;
+}
+
+.listak3 { 
+    padding: 10px 20px 0px 40px;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.szoveg {
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+.szoveg2, .listak, .listak2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.szoveg3 {
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+.szoveg4 {
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+.szoveg5 {
+    padding: 10px 20px 20px 20px;
+    font-size: 1.4rem;
+}
+
+footer {
+    background: #668EAD;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .kep {
+        width: 60px;
+    }
+
+    .element {
+        font-size: 0.9rem;
+        padding: 5px 15px;
+    }
+
+    .elements {
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 10px 0;
+    }
+
+    .szoveg2, .listak, .listak2, .szoveg, .szoveg3, .szoveg4, .szoveg5{
+        font-size: 1rem;
+    }
+
+    .register-form {
+        background-color: #668EAD;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
+        opacity: 0.85;
+        flex-grow: 1;
+    }
+
+    video {
+        width: 280px;
+    }
+      
+    .doboz2 {
+        filter: none;
+    }
+    
+    .doboz3 {
+        flex-wrap: wrap;
+        overflow-y: scroll;
+    }
+
+    .doboz6 {
+        max-width: 96%;
+    }
+
+    .column, .column2 {
+        flex: 1 1 100%;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .kep1 {
+        height: 100px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    tr {
+        margin-bottom: 15px;
+    }
+
+    td {
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .kep2 {
+     width: 50%;   
+    }
+
+    .flex-start {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+    .column {
+        flex: 1 1 40%;
+    }
+
+    .column2 {
+        flex: 1 1 60%;
+    }
+}

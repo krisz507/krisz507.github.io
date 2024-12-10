@@ -1,0 +1,25 @@
+p {
+    font-size: 1.2rem;
+    margin: 12px;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+.nap, .gomb {
+    margin: 20px 0;
+    padding: 15px;
+    background-color:darkslategrey; 
+    border-radius: 10px;
+}
+
+.gomb {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 200ms;
+}
+
+.gomb:hover {
+    background-color:darkslategrey; 
+    transition: background-color 0.3s ease;
+}

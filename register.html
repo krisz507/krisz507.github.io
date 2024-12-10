@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="logo.jpg">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="kep_meret">
+                <a href="index.html"><img src="logo.jpg" alt="logo" class="kep"></a>
+            </div>
+            <div class="elements">
+                <a href="index2.html" class="element">Intenzív Edzésprogramok</a>
+                <a href="index3.html" class="element">Mentális Fókusz</a>
+                <a href="index4.html" class="element">Izomerősítés</a>
+                <a href="index5.html" class="element">Táplálkozás és Tápanyagok</a>
+                <a href="index6.html" class="element">Pihenés és Izomregenerálódás</a>
+                <a href="index7.html" class="element">Tudományos háttér</a>
+            </div>
+        </nav>
+    </header>
+    <form class="register-form" action="index2.html" method="get">
+        <div>
+            <h1>Regisztráció</h1> 
+            <p class="info">A pokol hetének tréningjéhez elhagyhatatlan!<p>
+        </div>
+        <div>
+            <label for="username">Felhasználónév</label>
+            <input type="text" id="username" name="text" placeholder="Add meg a felhasználónevet!" required>
+        </div>
+        <div>
+            <label for="email">E-mail cím</label>
+            <input type="email" id="email" name="email" placeholder="Add meg az e-mail címedet!" required>
+        </div>
+        <div>
+            <label for="tel">Telefonszám</label>
+            <input type="number" id="tel" name="tel" placeholder="Add meg a telefonszámod!" required>
+        </div>
+        <div>
+            <label for="password">Jelszó</label>
+            <input type="password" id="password" name="password" placeholder="Válassz egy legalább 18 karakterből álló jelszót!" required>
+        </div>
+        <div>
+            <label>Válaszd ki a nemed!</label>
+            <label>
+                <input type="radio" name="gender" value="male">Férfi
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">Nő
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">Egyéb
+            </label>
+        </div>
+        <div>
+            <label for="date">Születési dátum</label>
+            <input type="datetime-local" id="date" name="date"> 
+        </div>
+        <div>
+            <label>Hozzájárulások</label>
+            <label>
+                <input type="checkbox" required>Elfogadom a felhasználási feltételeket
+            </label>
+            <label>
+                <input type="checkbox">Szeretnék e-mailben értesítést kapni a legújabb edzés tervekről
+            </label>
+            <label>
+                <input type="checkbox">Szeretném ha másnaposan hívogatna a boltvezető
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Regisztráció">
+        </div>
+    </form>
+        <footer>
+            <p>© 2024 Démoni Izmok</p>
+            <p>Telefonszámunk: 06 70 234 5678 / Email: DemoniIzmok@citromail.hu</p>
+        </footer> 
+    </body>
+</html>

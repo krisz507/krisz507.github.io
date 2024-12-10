@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    margin: 12px;
+    color:  white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    font-size: 1.7rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+
+input[type="submit"]:hover
+ {
+    background-color:darkslategrey;
+    transition: background-color 0.3s ease;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.register-form {
+    margin: 0 auto 20px auto;
+    background-color: #668EAD;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+

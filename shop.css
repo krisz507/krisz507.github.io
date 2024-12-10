@@ -1,0 +1,55 @@
+.products, .cart {
+    margin: 20px 0;
+}
+.product, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;  
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#checkout-form {
+    display: none;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+} 
+
+h2, p {
+    margin-bottom: 10px;
+}
+
+.doboz {
+    margin: 70px;
+}

@@ -1,0 +1,30 @@
+video {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.column{
+    width: 100%;
+    background-color: darkslategray;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    overflow-y: scroll;
+    height: 97%;
+    scrollbar-width: none;
+}
+
+.decoration  {
+    text-decoration: underline;
+}
+li {
+    margin: 12px;
+}
+
+.column video {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 12px;
+}

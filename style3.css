@@ -1,0 +1,41 @@
+.column3{
+    width: 37%;
+    background-color: darkslategray;
+    border-radius: 10px;
+    float: left;
+    margin: 15px;
+    height: 98%;
+}
+
+.kep1 {
+    height: 300px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px 4px darkslategray;
+    transition: 200ms;
+}
+
+.kep1:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.column2{
+    width: 63%;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6 {
+    background-color: #668EAD;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
