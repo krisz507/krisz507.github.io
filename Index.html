@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <title>Dna szamlalo</title>
+    <script src="java.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body data-aos="fade-up" data-aos-duration="1000">
+    <div id="container">
+        <h1>Dna SEQ Calculator</h1>
+        <p>Enter DNA sequence:</p>
+        <textarea maxlength="" id="dataInput" placeholder="Enter DNA sequence..."></textarea>
+        <button onclick="countNucleobases()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
